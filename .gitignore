@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# CIFAR-10 dataset (downloads automatically via torchvision)
+data/
+
+# Trained model weights (too large for GitHub, regenerate with python self_pruning.py)
+*.pth
+
+# Development/debugging scripts
+mock_results.py
+replot.py
+
+# Intermediate output files
+results_summary.csv
+
+# OS files
+.DS_Store
+Thumbs.db
